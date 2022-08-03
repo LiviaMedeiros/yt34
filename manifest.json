@@ -1,0 +1,28 @@
+{
+  "name": "yt34",
+  "description": "RKN GSH",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/img/yt34_16.png",
+    "32": "/img/yt34_32.png",
+    "48": "/img/yt34_48.png",
+    "128": "/img/yt34_128.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "yt34",
+        "enabled": true,
+        "path": "yt34.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/",
+    "https://yt3.ggpht.com/"
+  ]
+}
