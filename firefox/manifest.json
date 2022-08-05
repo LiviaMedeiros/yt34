@@ -1,0 +1,26 @@
+{
+  "name": "yt34",
+  "description": "RKN GSH",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": "LiviaMedeiros",
+  "homepage_url": "https://github.com/LiviaMedeiros/yt34",
+  "icons": {
+    "16": "/img/yt34_16.png",
+    "32": "/img/yt34_32.png",
+    "48": "/img/yt34_48.png",
+    "128": "/img/yt34_128.png"
+  },
+  "background": {
+    "scripts": [
+      "yt34.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.youtube.com/*",
+    "https://yt3.ggpht.com/*"
+  ]
+}
