@@ -3,6 +3,8 @@
   "description": "RKN GSH",
   "version": "1.0",
   "manifest_version": 3,
+  "author": "LiviaMedeiros",
+  "homepage_url": "https://github.com/LiviaMedeiros/yt34",
   "icons": {
     "16": "/img/yt34_16.png",
     "32": "/img/yt34_32.png",
