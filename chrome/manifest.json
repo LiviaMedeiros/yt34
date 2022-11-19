@@ -1,7 +1,7 @@
 {
   "name": "yt34",
   "description": "RKN GSH",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "author": "LiviaMedeiros",
   "homepage_url": "https://github.com/LiviaMedeiros/yt34",
@@ -25,6 +25,7 @@
   ],
   "host_permissions": [
     "https://www.youtube.com/",
+    "https://studio.youtube.com/",
     "https://yt3.ggpht.com/"
   ]
 }
